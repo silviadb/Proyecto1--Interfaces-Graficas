@@ -92,14 +92,14 @@ Forma de compilación, ejecución y utilización de la aplicación
                         
    d)Crear un archivo  chrome.manifest con lo siguiente:
    
-                       manifest chrome/chrome.manifest
+             manifest chrome/chrome.manifest
                        
                        
  3.  En la carpeta  default :
 
    a)Crear una carpeta preferences  y en esta crear un archivo prefs.js con lo siguiente:
    
-                       pref("toolkit.defaultChromeURI", "chrome://Proyecto1/content/main.xul");
+             pref("toolkit.defaultChromeURI", "chrome://Proyecto1/content/main.xul");
            
            
 4.En la carpeta chrome:
@@ -108,13 +108,16 @@ Forma de compilación, ejecución y utilización de la aplicación
   
   b)Crear un archivo chrome.manifest con lo siguiente: 
    
-                       content Proyecto1 content/
+             content Proyecto1 content/
                  
 5. En la carpeta content:
 
   a) Descargar en esta carpeta la compilador de coffeescript y  la librería d3.js.
   
   b) Copiar a esta carpeta los archivos main.xul ,main.coffee y reveal.js que se adjuntan.
+   Estos archivos se encuentran  en la siguiente direccion de un gist.
+      
+             https://gist.github.com/3828478
  
 
 Ejemplo de Datos
