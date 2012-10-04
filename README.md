@@ -142,16 +142,14 @@ Ejemplo de Datos
 
                 
                 
-Limitaciones observadas y posibles mejoras 
-------------------------------------------
+
 
 Limitaciones:
+-------------
 
-   1.
+   1.Problemas para implementar la librería desde coffeescript .
    
-Mejoras:
 
-   1.
    
    
  by Silvia Delgado y Aaron Ruiz
